@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster");
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+ 
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    padding: 7px;
+    color:   black;
+    background-color: rgba(194, 253, 154, 0.705);
+    text-align: center;
+    font-size:  15px;
+    width:      100% ;
+    z-index: 1;
+  }
+  .Fixed {
+    position: fixed;
+    bottom:  0;
+    padding: 20px;
+    color: black;
+    background-color:rgb(182, 112, 149);
+    text-align: center;
+    font-size:  15px;
+    width:      100% ;
+  
+  }
+  html{
+    /* la imagen a ser mostrada a pantalla completa */
+    background:url('images\m1.jpg') no-repeat center center;
+ 
+    /* nos aseguramos que el elemento ocupe toda la ventana del navegador */
+    min-height:100%;
+ 
+    /* Propiedad a utilizar para la imagen */
+    background-size:cover;
+}
+  body {
+    /* Aquí el origen de la imagen */
+    background-image:url(images/m.jpg);
+  
+    /* Fijar la imagen de fondo este vertical y
+      horizontalmente y centrado */
+    background-position: center center;
+  
+    /* Esta imagen no debe de repetirse */
+    background-repeat: no-repeat;
+  
+    /* COn esta regla fijamos la imagen en la pantalla. */
+    background-attachment: fixed;
+  
+    /* La imagen ocupa el 100% y se reescala */
+    background-size: cover;
+  
+
+  }
+
+  form {
+
+        /* Damos un color de fondo mientras la imagen está cargando  */
+        background-image:url(http:\\images\m.jpg);
+    /*  background-color:rgb(255, 147, 156);*/
+      /* Centrar el formulario en la página */
+      margin: 50px auto;
+            /* Esquema del formulario */
+      padding: 1em;
+
+      border-radius: 1em;
+
+    }
+
+   form input[type="text"]{
+    width:300px;
+   }
+   form input[type="password"]{
+    width:300px;
+   }
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+      margin-left: -15em;
+    width: 90px;
+    text-align: right;
+  }
+  
+
+  input:hover,
+  button:hover
+  {
+    border-color: rgb(224, 27, 27);
+  }
+
+  input:focus, 
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: rgb(224, 27, 27);
+  }
+  
+
+  form input[type="submit"]{
+      width:80%;
+      padding:8px 16px;
+      margin-top:32px;
+      border-radius:5px;
+      display:block;
+      color:#fff;
+      background-color:rgba(247, 130, 198, 0.815);
+  } 
+
+  /* ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  */
+
+    /*
+  .two-fields {
+    width:100%;
+  }
+  .two-fields .input-group {
+    width:100%;
+  }
+  .two-fields input {
+    width:50% !important;
+  }*/
+  /*
+  */
