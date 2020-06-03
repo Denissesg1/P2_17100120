@@ -1,0 +1,14 @@
+
+*{box-sizing:border-box;}
+
+body {
+  font-family: system-ui;
+  background: linear-gradient(90deg, rgb(226, 109, 191), #809BCE, rgb(185, 218, 147));
+  color: white;
+  text-align: center;
+}
+
+#grid{
+    color: white;
+
+}

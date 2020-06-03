@@ -1,0 +1,13 @@
+Create database logistica
+
+Create table usuarios(
+	idUsuario varchar(15) not null primary key,
+	Nombre varchar(20) not null,
+	Apellido varchar(20) not null,
+	Correo varchar(35) not null
+)
+
+INSERT INTO `usuarios` (`idUsuario`, `Nombre`, `Apellido`, `Correo`) VALUES ('dsg', 'Denisse', 'Salazar', 'denissesg1@hotmail.com');
+INSERT INTO `usuarios` (`idUsuario`, `Nombre`, `Apellido`, `Correo`) VALUES ('estrella1', 'Estrella', 'Salazar', 'estrella2@gmail.com');
+INSERT INTO `usuarios` (`idUsuario`, `Nombre`, `Apellido`, `Correo`) VALUES ('hesc', 'Harry', 'Styles', 'hesc@hotmail.com');
+INSERT INTO `usuarios` (`idUsuario`, `Nombre`, `Apellido`, `Correo`) VALUES ('Niall', 'Niall', 'Horan', 'Nh2307@homail.com');
